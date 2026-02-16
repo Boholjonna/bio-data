@@ -134,13 +134,13 @@
 						</Grid.RowDefinitions>
 						<Grid.Resources>
 							<!-- Rounded input style for TextBox -->
- 							<Style
- 								TargetType="TextBox"
- 								x:Key="RoundedTextBox">
- 								<!-- Slightly larger vertical margin between text inputs -->
- 								<Setter
- 									Property="Margin"
- 									Value="0,3,0,9" />
+							<Style
+								TargetType="TextBox"
+								x:Key="RoundedTextBox">
+								<!-- Slightly larger vertical margin between text inputs -->
+								<Setter
+									Property="Margin"
+									Value="0,3,0,9" />
 								<Setter
 									Property="Padding"
 									Value="10,8" />
@@ -211,13 +211,13 @@
 								</Style.Triggers>
 							</Style>
 							<!-- Rounded style for ComboBox (uses default template to keep dropdown working) -->
- 							<Style
- 								TargetType="ComboBox"
- 								x:Key="RoundedComboBox">
- 								<!-- Slightly larger vertical margin between combo boxes -->
- 								<Setter
- 									Property="Margin"
- 									Value="0,3,0,9" />
+							<Style
+								TargetType="ComboBox"
+								x:Key="RoundedComboBox">
+								<!-- Slightly larger vertical margin between combo boxes -->
+								<Setter
+									Property="Margin"
+									Value="0,3,0,9" />
 								<Setter
 									Property="Padding"
 									Value="10,4" />
@@ -267,13 +267,13 @@
 								</Style.Triggers>
 							</Style>
 							<!-- Rounded DatePicker style (keeps default functional template) -->
- 							<Style
- 								TargetType="DatePicker"
- 								x:Key="RoundedDatePicker">
- 								<!-- Slightly larger vertical margin between date pickers and neighbors -->
- 								<Setter
- 									Property="Margin"
- 									Value="0,3,0,9" />
+							<Style
+								TargetType="DatePicker"
+								x:Key="RoundedDatePicker">
+								<!-- Slightly larger vertical margin between date pickers and neighbors -->
+								<Setter
+									Property="Margin"
+									Value="0,3,0,9" />
 								<Setter
 									Property="FontSize"
 									Value="13" />
@@ -371,7 +371,7 @@
 									FontWeight="SemiBold"
 									Foreground="#1F2933"
 									FontSize="14"
-								Margin="0,2,0,2" />
+									Margin="0,2,0,2" />
 								<!-- Rounded outer border for Birthdate (matches other inputs) -->
 								<Border
 									CornerRadius="8"
@@ -392,7 +392,7 @@
 									FontWeight="SemiBold"
 									Foreground="#1F2933"
 									FontSize="14"
-								Margin="0,2,0,2" />
+									Margin="0,2,0,2" />
 								<TextBox
 									x:Name="AgeTextBox"
 									Style="{StaticResource RoundedTextBox}"
@@ -606,7 +606,6 @@
 									</Button.Effect>
 								</Button>
 							</Border>
-
 							<!-- Clear button (bottom) -->
 							<Border
 								CornerRadius="22"
@@ -648,9 +647,9 @@
 		</Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition
-				Width="0.0279661016949153*" />
+				Width="0*" />
 			<ColumnDefinition
-				Width="0.972033898305085*" />
+				Width="*" />
 		</Grid.ColumnDefinitions>
 	</Grid>
 </Window>
