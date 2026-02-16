@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="BIO_DATA.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="BIO_DATA"
+	Width="582"
+	Height="736">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition
+				Width="0.221153846153846*" />
+			<ColumnDefinition
+				Width="0.778846153846154*" />
+		</Grid.ColumnDefinitions>
+	</Grid>
+</Window>

@@ -1,0 +1,10 @@
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\bin\Debug\BIO-DATA.exe
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\bin\Debug\BIO-DATA.pdb
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\BIO-DATA.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\Window1.baml
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\Window1.g.cs
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\App.g.cs
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\BIO-DATA_MarkupCompile.cache
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\BIO-DATA.g.resources
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\BIO-DATA.exe
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\BIO-DATA\BIO-DATA\obj\Debug\BIO-DATA.pdb
