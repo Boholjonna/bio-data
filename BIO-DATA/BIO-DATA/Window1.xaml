@@ -52,19 +52,19 @@
 			<!-- Card container - main content surface with subtle gradient -->
 			<Border
 				Grid.Row="0"
-				CornerRadius="12"
 				Padding="20"
 				HorizontalAlignment="Stretch"
 				VerticalAlignment="Stretch"
 				SnapsToDevicePixels="True"
-				Grid.ColumnSpan="2">
+				Grid.ColumnSpan="2"
+				CornerRadius="0,0,0,0">
 				<Border.Background>
 					<LinearGradientBrush
 						StartPoint="0,0"
 						EndPoint="1,1">
 						<LinearGradientBrush.GradientStops>
 							<GradientStop
-								Color="#FFEDA8A8"
+								Color="#FFEAEFF7"
 								Offset="0" />
 							<GradientStop
 								Color="#FFF5F7FF"
@@ -76,8 +76,8 @@
 								Color="#FFCEDBEF"
 								Offset="0.067639257294429711" />
 							<GradientStop
-								Color="#FFC0C2DB"
-								Offset="0.0053050397877984082" />
+								Color="#FFE6E7F7"
+								Offset="0.0079575596816976128" />
 						</LinearGradientBrush.GradientStops>
 					</LinearGradientBrush>
 				</Border.Background>
