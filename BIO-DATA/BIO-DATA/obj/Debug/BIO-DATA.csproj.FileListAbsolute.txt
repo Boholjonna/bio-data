@@ -18,3 +18,5 @@ C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\PRELIM\bio-data\BIO-DATA\
 C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\PRELIM\bio-data\BIO-DATA\BIO-DATA\bin\Debug\BIO-DATA.exe
 C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\PRELIM\bio-data\BIO-DATA\BIO-DATA\bin\Debug\BIO-DATA.pdb
 C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\PRELIM\bio-data\BIO-DATA\BIO-DATA\obj\Debug\BIO-DATA.pdb
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\PRELIM\bio-data\BIO-DATA\BIO-DATA\bin\Debug\images\user.ico
+C:\Users\ASUS\OneDrive\Documents\SharpDevelop Projects\PRELIM\bio-data\BIO-DATA\BIO-DATA\obj\Debug\BIO-DATA_Content.g.cs

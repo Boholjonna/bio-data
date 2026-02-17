@@ -9,6 +9,7 @@
     <AssemblyName>BIO-DATA</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
+    <ApplicationIcon>images\user.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -72,6 +73,11 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Window1.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\user.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
