@@ -306,5 +306,20 @@ namespace BIO_DATA
 				UpdateCountryCodeDisplay(defaultCountry);
 			}
 		}
+		
+		private void CancelButton_Click(object sender, RoutedEventArgs e)
+		{
+			MessageBoxResult result = MessageBox.Show(
+				"Are you sure you want to exit?",
+				"Confirm Exit",
+				MessageBoxButton.YesNo,
+				MessageBoxImage.Question
+			);
+			
+			if (result == MessageBoxResult.Yes)
+			{
+				Application.Current.Shutdown();
+			}
+		}
 	}
 }

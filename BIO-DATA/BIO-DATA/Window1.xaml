@@ -6,7 +6,9 @@
 	MinHeight="850"
 	Width="600"
 	Height="850"
-	WindowStartupLocation="CenterScreen">
+	WindowStartupLocation="CenterScreen"
+	WindowStyle="None"
+	ResizeMode="NoResize">
 	<!-- Soft gradient background -->
 	<Window.Background>
 		<LinearGradientBrush
@@ -606,11 +608,12 @@
 									</Button.Effect>
 								</Button>
 							</Border>
-							<!-- Clear button (bottom) -->
+							<!-- Clear button (middle) -->
 							<Border
 								CornerRadius="22"
 								SnapsToDevicePixels="True"
-								ClipToBounds="True">
+								ClipToBounds="True"
+								Margin="0,0,0,8">
 								<Button
 									x:Name="ClearButton"
 									Content="Clear"
@@ -622,6 +625,34 @@
 									Foreground="#4C6FFF"
 									Background="#FFFFFFFF"
 									BorderBrush="#CBD2E1"
+									BorderThickness="1"
+									HorizontalAlignment="Stretch"
+									Cursor="Hand">
+									<Button.Effect>
+										<DropShadowEffect
+											Color="#33000000"
+											BlurRadius="12"
+											ShadowDepth="2"
+											Opacity="0.5" />
+									</Button.Effect>
+								</Button>
+							</Border>
+							<!-- Cancel button (bottom) -->
+							<Border
+								CornerRadius="22"
+								SnapsToDevicePixels="True"
+								ClipToBounds="True">
+								<Button
+									x:Name="CancelButton"
+									Content="Cancel"
+									Click="CancelButton_Click"
+									Height="44"
+									Padding="16,6"
+									FontSize="14"
+									FontWeight="SemiBold"
+									Foreground="#DC2626"
+									Background="#FFFFFF"
+									BorderBrush="#FCA5A5"
 									BorderThickness="1"
 									HorizontalAlignment="Stretch"
 									Cursor="Hand">
